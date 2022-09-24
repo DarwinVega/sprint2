@@ -1,0 +1,43 @@
+.navegador{
+    background-color: #25387c;
+    display: inline-flex;
+ }
+
+ .navegador a{
+
+   text-decoration: none;
+   color: aliceblue;
+   padding: 0 59px ;
+   font-size: 30px;
+   margin: 15px 20px 15px 0;
+   
+ }
+ 
+ .navegador a:hover{
+    background-color: #57a8ef;
+    color: #ffffff;
+    
+ }
+ 
+.navegador a.active{
+   background-color: #ffffff;
+    color: #000000;
+}
+.titulo{
+
+   color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-shadow: 2px 5px #a1a4ae;
+
+}
+
+.imagen{
+   position: absolute; top: 300px; left: 110px;
+}
+
+.imagen1{
+   position: absolute; top: 810px; left: 110px;
+}
